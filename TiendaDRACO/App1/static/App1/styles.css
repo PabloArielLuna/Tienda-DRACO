@@ -1,0 +1,125 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+   
+/*Ajustar el ancho de las cajas de texto*/
+.form-container form {
+    width: 100%;
+    max-width: 400px; /*Ajusta este valor según el ancho deseado*/
+}
+
+.banner {
+    text-align: center; /* Centra el texto y la imagen dentro de .banner */
+    padding: 20px; /* Espaciado alrededor del contenido */
+}
+
+p {
+    text-align: center;
+}
+
+.testimonio {
+    text-align: center;
+    font-style: italic;
+    margin: 20px 0;
+    background-color: black;
+}
+
+.carousel-item {
+    padding: 20px;
+}
+
+.oferta {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(10, 10, 10);
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+img {
+    transition: transform 0.3s ease; /* Suaviza la transición */
+    height: 20vw;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 70vw;
+    height: 35vw;
+}
+
+
+.como-funciona h2 {
+    font-weight: bold;
+    color: #f8f8f8;
+}
+
+.paso {
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.paso h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.paso p {
+    font-size: 1.1em;
+}
+
+.paso:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    border: none;
+}
+
+.bg-primary {
+    background-color: #000000 !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
+}
+
+footer h5 {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}

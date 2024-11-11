@@ -1,0 +1,26 @@
+{% extends "App1/base.html" %}
+
+{% load static %}
+
+{% block title %}
+    Crear Usuarios
+{% endblock title %}
+
+{% block codigoDinamico %}
+
+<div class= "container">
+    <form action="" method="post">{% csrf_token %}  
+        <br> <br> <br>        
+        <h1>Crear un Nuevo Usuario</h1> <br> <br> <br>
+
+        <table>
+            {{form.as_table}}
+        </table> 
+        <br> <br>
+        <div class="container">
+            <button type="submit" class="btn btn-success">Crear Usuario</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

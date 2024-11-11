@@ -1,0 +1,54 @@
+{% extends "App1/base.html" %}
+
+{% load static %}
+
+{% block title %}
+    Ventas-detalles
+{% endblock title %}
+
+{% block codigoDinamico %}
+
+<div class="container">
+    <h1> Venta detalles: </h1> <br> <br> <br>
+{% for ventas_detalles in venta_detalle %}
+
+        <div class="container">
+            <table class="table table-hover">
+                <tbody>
+                    <th scope="col">Id</th>
+                    <th scope="col">Monto</th>
+                    <th scope="col">Fecha de venta</th>
+                    <th scope="col">Forma de pago</th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Usuario</th>
+                    <tr class="table-dark">
+
+                        <td>  {{ventas_detalles.id}}</td>
+                        <td> ${{ventas_detalles.monto}}</td>
+                        <td>  {{ventas_detalles.fecha_venta}}</td>
+                        <td>  {{ventas_detalles.forma_de_pago}}</td>
+                        <td>  {{ventas_detalles.producto}}</td>
+                        <td>  {{ventas_detalles.usuario}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <button type="submit" class="btn btn-outline-success">
+                <a href="{% url 'Crear Ventas_detalles' %}">Nuevo Ventas_detalles</a>
+            </button>&nbsp; &nbsp;&nbsp;
+            <button type="submit" class="btn btn-outline-secondary">
+                <a href="{% url 'Buscar ventas_detalles' %}">Buscar ventas_detalles</a>
+            </button> &nbsp; &nbsp;&nbsp;
+            <button type="submit" class="btn btn-outline-danger">
+                <a href="{% url 'Eliminar Ventas_detalles' ventas_detalles_id=ventas_detalles.id %}">Eliminar Ventas detalles</a>
+            </button> &nbsp; &nbsp;&nbsp;
+            <button type="submit" class="btn btn-outline-warning">
+                <a href="{% url 'Actualizar Ventas detalles' ventas_detalles_id=ventas_detalles.id %}">Actualizar Ventas detalles</a>
+            </button> 
+        </div>
+</div>
+
+{% endfor %}
+
+{% endblock %}
