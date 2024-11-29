@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tienda-draco",
+  "private_key_id": "8125c703c26d302f88fd4721132e3d66b00e2cec",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCeqfStxoTpZWuu\nwx4tP5zW/UUqFTAsX4KNiSO6JOqwcGLnCPAyuM9nGNi4GQKr/QtEnOwq6y1/FHay\nHT5m0hCykr2yobybX425gG52FDovGSVlmZ5AVE+JGImtuyEo5hE1ein+ziKtKSyx\nHIfh/tNccqlCEfF1Gs2KzUaiv51PT/HfAXoss8z0QKg/Y1UdwHFHfDd5t52JLo5c\nHnHveUeYx2XWF49G4/bLIZWGqjGly494sdsYwwxCGJ4YK5OFNhIX/3IS/bd889x+\nlm4L1B7NVxYK4dreAYMjCCDRFJ0PqoE++avkSSnu32HTFlJ2l55EX+iaqcFuyZBa\n48l/i9M1AgMBAAECggEACWxOGhD/fU4W9GDltqm/wpv1ot9xxjzg58+Ehe5h2ts9\n4HtNKrIDrVuSKXLgz/6eD/Pi6dSgVdsNBpyKg3hH4hcpeYW2CiNFa0Y3qT8fyoLL\nkAps1eS7+YgxyxXhTQjG7l5kRpwO/qpCm302i8NC4ct0hnZC2SHfobX50zoemWJt\n0E3Z+GLZ9BPtpG7a1MkfG2fKfOGQmuFGEabNvGt8B0wreSJR+UKQs5nKfXQzYCTe\nJ0YDBYk4EvkShP+MUkdk8mIfBRq6f+9v4ntT1pYUY9k7AAgiJoklGWbKrRUJQE0T\nIFD2w6zFAbG0djCeEpFjMUgKCtTpx7pw/51mnLjiSQKBgQDc+6ZEQ0hSDK9LHJJh\nSQoEyXoJ42pJy5yF9kS6MI9Rskk9pLW7Z/3Sbhpep3R3jGs3bUvVGzLQnmESGvYo\nqbnFz6RlMDre68RlAcpNtjR2jf3ZxEhbCQFs6+V9KRVna8lKFcmZw+eQkJpgxQFm\n2qT812G0GwbMWheavu8FX0mX+QKBgQC3zkgzcjhnB5s/e2kyVnNPkTysL7YNlQe3\n3YOY2epGv4bFkI0Mi1EnuSiN/KWInbnW9U4HuvQmQEbllP0pXC/GME/G35Z1qyco\nkRcmmtqS5I8pajkADzBatqyCFouTzZcpSkxD36jeBRXq8jjhViqmpLxYpgzXq+wz\nqT+mE6F8HQKBgQCoM/QOqZf2vCkBZzIUUuAJXMJDnJJesVjmrtkJT8UHTklpXmHl\nz/Xnol74BUYlaQCDI/JAt38qRCNnAJa1xNresnpTey6UV6kZqQ8vr6ynQNUkWL8q\na+Rl3/jCF+9u1SBV/9d/7xnnc+nOFqZGf85tlhOMX7YA/eJRq1uMH0eJIQKBgBBy\n9IEuIqANzTX0LGjl1bH0NHLQXkF+6c7pkwJV1iJ4t23szsKloSCl8FwslP/R5bS4\nBUCp2Xmm3PFk0PcnmdrpreoFTmi/ZWS6/1BkIVVuAOXa7Lj1owUrPerya5FRn8qB\nLKwSUwFzgQ+il7aKyIxbR8PDMHkImL3S0rBhJ119AoGBAIi07U18dtFxfbJ6zIoA\nPlllNW8i/PO3gyBzm7wG3uDpKzRX2HpIvRbAmrAFxU/icbYqNpt7X57zwucAniXj\nHJJDyWUr0AYIzgqr3IIjXi28QeLqG47ICg5aU6R+hp57DwdG7t1ov/gsRNrrixth\neGgdDy4+hNsVytB6i4tUYvAw\n-----END PRIVATE KEY-----\n",
+  "client_email": "credencial-dialogflow@tienda-draco.iam.gserviceaccount.com",
+  "client_id": "116872274409108413294",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/credencial-dialogflow%40tienda-draco.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

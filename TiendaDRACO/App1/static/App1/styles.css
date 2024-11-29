@@ -123,3 +123,11 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+df-messenger {
+    --df-messenger-bot-message: #4CAF50; /* Color del mensaje del bot */
+    --df-messenger-user-message: #FFC107; /* Color del mensaje del usuario */
+    --df-messenger-font-color: #000; /* Color del texto */
+    --df-messenger-chat-background-color: #f9f9f9; /* Fondo del chat */
+  }
+

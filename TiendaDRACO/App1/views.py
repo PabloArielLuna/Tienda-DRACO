@@ -8,6 +8,9 @@ from django.core.mail import send_mail
 from django.conf import settings
 from django.contrib import admin
 from django.core.paginator import Paginator
+from django.http import JsonResponse
+from django.views import View
+from google.cloud import dialogflow_v2 as dialogflow
 
 # Create your views here.
 

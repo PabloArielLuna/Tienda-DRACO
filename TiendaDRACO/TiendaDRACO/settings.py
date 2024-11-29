@@ -1,3 +1,5 @@
+import os
+
 """
 Django settings for TiendaDRACO project.
 
@@ -63,7 +65,7 @@ TEMPLATES = [
         'DIRS': [BASE_DIR, 'Templates'],
         'APP_DIRS': True,
         'OPTIONS': {
-            'context_processors': [
+        'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -81,15 +83,8 @@ WSGI_APPLICATION = 'TiendaDRACO.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '@Cfl4062024Abd',
-        'NAME': 'TiendaDRACO',
-        'OPTIONS': {
-            'init_command': 'SET sql_mode="STRICT_TRANS_TABLES"',
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
